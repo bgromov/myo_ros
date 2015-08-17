@@ -39,8 +39,11 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 add_message_files(
     FILES
     Gesture.msg
+    GestureStamped.msg
     Vibration.msg
+    VibrationStamped.msg
     Status.msg
+    StatusStamped.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
